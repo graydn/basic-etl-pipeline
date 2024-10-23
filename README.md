@@ -2,7 +2,7 @@
 
 ## Description
 A Python application to fetch and store currency exchange rates in an SQLite database, updating rates daily at midnight (if left to run continuously).
-This is intended to demonstrate an understanding of the tech and processes used and not as a useful application.
+This is intended to demonstrate an understanding of the tech and processes used and not to be a useful application.
 
 ## Requirements
 - `requests`
@@ -13,7 +13,7 @@ This is intended to demonstrate an understanding of the tech and processes used 
 - first clone the repo onto your local machine using `git clone`
 - ensure Docker is installed if you wish to use the containerised version
 - ensure Python 3.x.x is installed if you wish to use the localised version
-- Get a FREE api key from [text](https://currencyfreaks.com/) !
+- Get a FREE api key from [CurrencyFreaks](https://currencyfreaks.com/) !
 
 ### Local Setup
 1. Install required packages:
@@ -32,8 +32,7 @@ This is intended to demonstrate an understanding of the tech and processes used 
 ### Docker Setup
 To run the application in a Docker container:
 
-1. **Create .env:**
-   Create a `.env` file in the root directory and include your API_KEY:
+1. **Create a `.env` file in the root directory and include your API_KEY:**
    ```bash
    API_KEY=YOUR_API_KEY
    ```
